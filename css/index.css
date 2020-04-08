@@ -1,0 +1,36 @@
+:root{
+/* Fonts*/
+  --fontName: 'Nunito Sans', sans-serif;
+
+/* Font Sizes */
+  --small: 1.4em;
+  --regular: 1.6em;
+  --medium: 2.2em;
+  --large: 5.2em;
+
+/* Colors*/
+  --red: #fc5c65;
+  --blue: #45aaf2;
+  --grey: #95afc0;
+  --green: #2bcbba;
+  --purple: #a55eea;
+  --yellow: #f7b731;
+  --dark-blue: #4b7bec;
+  --dark-grey: #778ca3;
+  --dark-green: #26de81;
+  --background-color: #d1d8e0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontName);
+}
+
+body{
+    font-size: 62.5%;
+    background-color: var(--background-color);
+    box-shadow: inset 7px 7px 14px #a7adb3, 
+                inset -7px -7px 14px #fbffff;
+
+}
