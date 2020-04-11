@@ -1,0 +1,38 @@
+div#grid-box {
+  display: grid;
+  grid-template-columns: repeat(18, 3.35rem);
+  grid-template-rows: repeat(9, 3.2rem);
+  align-self: center;
+  height: 80vh;
+  gap: 0.52rem 0.8rem;
+  margin-bottom: 5vh;
+}
+
+.grid-box-item {
+  border-radius: 0.8rem;
+  box-shadow: 5px 5px 5px #c7cdd5, -5px -5px 5px #dbe3eb;
+  padding: 0.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  box-shadow: inset 8px 8px 16px #bec5cc, inset -8px -8px 16px #e4ebf4;
+}
+.grid-box-item:hover {
+  box-shadow: var(--shadow-primary);
+}
+
+.atomic-number-container {
+  font-weight: 900;
+  margin-left: 0.25rem;
+}
+.symbol-container {
+  font-size: var(--small);
+  font-weight: 900;
+  text-align: center;
+  height: var(--small);
+  line-height: 12px;
+}
+.atomic-weight-container {
+  text-align: center;
+  line-height: 8px;
+}

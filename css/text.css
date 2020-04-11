@@ -1,0 +1,13 @@
+#title {
+  align-self: center;
+  color: var(--black);
+  display: inherit;
+  font-weight: 700;
+  font-size: var(--medium);
+  justify-self: center;
+  line-height: 2.25rem;
+  margin-top: 0.22rem;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

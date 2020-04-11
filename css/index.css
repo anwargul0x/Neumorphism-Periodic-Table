@@ -1,16 +1,17 @@
-:root{
-/* Fonts*/
-  --fontName: 'Nunito Sans', sans-serif;
+:root {
+  /* Fonts*/
+  --fontName: "Nunito Sans", sans-serif;
 
-/* Font Sizes */
-  --small: 1.4em;
-  --regular: 1.6em;
-  --medium: 2.2em;
-  --large: 5.2em;
+  /* Font Sizes */
+  --small: 1.2rem;
+  --regular: 1.4rem;
+  --medium: 1.6rem;
+  --large: 3.2rem;
 
-/* Colors*/
+  /* Colors*/
   --red: #fc5c65;
   --blue: #45aaf2;
+  --black: #2f2f2f;
   --grey: #95afc0;
   --green: #2bcbba;
   --purple: #a55eea;
@@ -19,18 +20,35 @@
   --dark-grey: #778ca3;
   --dark-green: #26de81;
   --background-color: #d1d8e0;
+
+  /* Shadows */
+  --shadow-primary: 6px 6px 12px #bcc2ca, -6px -6px 12px #e6eef6;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: var(--fontName);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontName);
 }
 
-body{
-    font-size: 62.5%;
-    background-color: var(--background-color);
-    box-shadow: inset 7px 7px 14px #a7adb3, 
-                inset -7px -7px 14px #fbffff;
+body {
+  font-size: 62.5%;
+  /* text-transform: uppercase; */
+  background-color: var(--background-color);
+  box-shadow: inset 7px 7px 14px #a7adb3, inset -7px -7px 14px #fbffff;
+}
 
+.hide {
+  background-color: transparent;
+  box-shadow: transparent;
+}
+.over-ride {
+  display: grid;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+  justify-items: center;
+  align-items: center;
+}
+#la {
+  font-weight: 900;
 }

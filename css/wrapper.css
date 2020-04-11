@@ -1,0 +1,17 @@
+div#main-wrapper {
+  display: grid;
+  height: 99.9vh;
+  max-height: 100vh;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+  width: 92vw;
+}
+div#title-wrapper {
+  background-color: var(--background-color);
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow-primary);
+  display: grid;
+  height: 3rem;
+  margin: 1.4rem 0rem;
+  width: 100%;
+}
