@@ -1,7 +1,7 @@
 div#grid-box {
   display: grid;
-  grid-template-columns: repeat(18, 3.35rem);
-  grid-template-rows: repeat(9, 3.2rem);
+  grid-template-columns: repeat(18, minmax(3.35rem, auto));
+  grid-template-rows: repeat(9, minmax(3.2rem,auto));
   align-self: center;
   height: 80vh;
   gap: 0.52rem 0.8rem;
